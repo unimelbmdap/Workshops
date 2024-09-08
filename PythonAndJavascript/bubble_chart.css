@@ -1,0 +1,97 @@
+a, a:visited, a:active {
+  color: #444;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.button {
+  min-width: 130px;
+  padding: 4px 5px;
+	font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid #e0e0e0;
+  text-decoration: none;
+}
+
+.button.active {
+  background: #000;
+  color: #fff;
+}
+
+.termlabel{
+  font-size: 12px;
+  text-align: center;
+}
+
+#vis {
+  width: 940px;
+  height: 600px;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+#toolbar {
+  margin-top: 10px;
+}
+.term {
+  font-size: 10px;
+  fill: #aaa;
+  cursor: default;
+}
+
+.cat {
+  font-size: 10x;
+	font-family: Arial, Helvetica, sans-serif;
+  fill: rgb(32, 31, 31);
+  cursor: default;
+}
+
+.tooltip {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+  -moz-border-radius:5px;
+	border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+	opacity: .9;
+  color: black;
+	padding: 10px;
+	width: 300px;
+	font-size: 16px;
+	z-index: 10;
+}
+
+.tooltip .title {
+	font-size: 12px;
+}
+
+.tooltip .word {
+  font-weight:bold;
+  font-size: 120%;
+}
+
+.tooltip .egs {
+  font-size: 90%;
+}
+
+.tooltip .descr {
+  font-size: 75%;
+}
+
+.footer {
+  text-align: center;
+}
+
+/* Document styling */
+body {
+	font-family: "Book Antiqua", Palatino, serif;
+	width: 840px;
+	margin: 0 auto 50px auto;
+	font-size: 14px;
+}

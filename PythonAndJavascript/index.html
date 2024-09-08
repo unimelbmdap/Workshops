@@ -1,11 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <title>Lexicon Project</title>
+  <meta name="description" content="Using D3v4 to create a Bubble chart. Based on NYT visualization by Jim Vallandingham">
+  <meta name="author" content="SCIP-MGSE">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bubble_chart.css">
 </head>
 <body>
-    <h1>Hello from MDAP</h1>
+  <div class="container">
+    <h1>Australian Lexicon</h1>
+    <div id="toolbar">
+      <a href="#" id="all" class="button active">All Terms</a>
+      <a href="#" id="categories" class="button">Terms By Category</a>
+    </div>
+    <div id="vis"></div>
+
+  </div>
+
+
+  <script src="//d3js.org/d3.v4.min.js"></script>
+  <script src="src/tooltip.js"></script>
+  <script src="src/bubble_chart.js"></script>
+
+
+
 </body>
 </html>
